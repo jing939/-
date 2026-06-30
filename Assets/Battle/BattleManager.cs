@@ -994,7 +994,7 @@ public class BattleManager : MonoBehaviour
         if (ExploreManager.instance != null)
         {
             ExploreManager.instance.OnBattleFinished(win);
-            SceneManager.UnloadSceneAsync("BattleScene");
+            SceneManager.UnloadSceneAsync(gameObject.scene.name);
         }
         else
         {

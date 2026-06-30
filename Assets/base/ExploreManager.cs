@@ -911,7 +911,8 @@ public class ExploreManager : MonoBehaviour
 
         ToggleExploreSceneActive(false);
 
-        UnityEngine.SceneManagement.SceneManager.LoadScene("BattleScene",
+        string sceneName = (targetNode.eventType == EventType.Boss) ? "BossBattleScene" : "BattleScene";
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName,
             UnityEngine.SceneManagement.LoadSceneMode.Additive);
     }
 
