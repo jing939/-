@@ -2701,11 +2701,11 @@ MonoBehaviour:
     coinEffects: []
     assignedSlotSprite: {fileID: 21300000, guid: 8aebbfee387a97946b73093e301c9b92, type: 3}
     readySlotSprite: {fileID: 21300000, guid: b39be50af7c2acf41aa15c5ad0c6a622, type: 3}
-  - skillName: "\uACF51"
+  - skillName: "\uC2B9\uBD80\uC218"
     isDefenseSkill: 0
     defenseLevel: 25
-    basePower: 6
-    coinPower: 8
+    basePower: 5
+    coinPower: 9
     coinCount: 1
     effects: []
     coinEffects:
@@ -2718,12 +2718,12 @@ MonoBehaviour:
         count: 0
     assignedSlotSprite: {fileID: 21300000, guid: 8aebbfee387a97946b73093e301c9b92, type: 3}
     readySlotSprite: {fileID: 21300000, guid: b39be50af7c2acf41aa15c5ad0c6a622, type: 3}
-  - skillName: "\uACF52"
+  - skillName: "\uC62C\uC778"
     isDefenseSkill: 0
     defenseLevel: 25
     basePower: 5
-    coinPower: 4
-    coinCount: 2
+    coinPower: 12
+    coinCount: 1
     effects: []
     coinEffects:
     - animationTrigger: 1
@@ -2736,12 +2736,12 @@ MonoBehaviour:
       effects: []
     assignedSlotSprite: {fileID: 21300000, guid: 8aebbfee387a97946b73093e301c9b92, type: 3}
     readySlotSprite: {fileID: 21300000, guid: b39be50af7c2acf41aa15c5ad0c6a622, type: 3}
-  - skillName: "\uACF53"
+  - skillName: "\uC7AD\uD31F \uBE0C\uB808\uC774\uD06C"
     isDefenseSkill: 0
     defenseLevel: 25
-    basePower: 5
-    coinPower: 5
-    coinCount: 3
+    basePower: 4
+    coinPower: 10
+    coinCount: 2
     effects: []
     coinEffects:
     - animationTrigger: 1
@@ -3583,7 +3583,7 @@ MonoBehaviour:
     coinEffects: []
     assignedSlotSprite: {fileID: 21300000, guid: 27fa6340f5a0a3c40b627e7cfeb3f5ba, type: 3}
     readySlotSprite: {fileID: 21300000, guid: 1a169cc7aef44c54dade3d519bd1e74d, type: 3}
-  - skillName: "\uACF51"
+  - skillName: "\uC548\uC815"
     isDefenseSkill: 0
     defenseLevel: 25
     basePower: 6
@@ -3600,7 +3600,7 @@ MonoBehaviour:
         count: 0
     assignedSlotSprite: {fileID: 21300000, guid: 27fa6340f5a0a3c40b627e7cfeb3f5ba, type: 3}
     readySlotSprite: {fileID: 21300000, guid: 1a169cc7aef44c54dade3d519bd1e74d, type: 3}
-  - skillName: "\uACF52"
+  - skillName: "\uD3C9\uC628"
     isDefenseSkill: 0
     defenseLevel: 25
     basePower: 5
@@ -3618,7 +3618,7 @@ MonoBehaviour:
       effects: []
     assignedSlotSprite: {fileID: 21300000, guid: 27fa6340f5a0a3c40b627e7cfeb3f5ba, type: 3}
     readySlotSprite: {fileID: 21300000, guid: 1a169cc7aef44c54dade3d519bd1e74d, type: 3}
-  - skillName: "\uACF53"
+  - skillName: "\uC548\uC2DD"
     isDefenseSkill: 0
     defenseLevel: 25
     basePower: 5
@@ -4988,7 +4988,7 @@ MonoBehaviour:
     effects: []
     coinEffects:
     - animationTrigger: 1
-      attackSpeed: 0
+      attackSpeed: 1
       customEffectPrefab: {fileID: 6703250321131892297, guid: 2b987d41506d172419fa18578f6ac380, type: 3}
       effects:
       - statusType: 2
@@ -5327,7 +5327,7 @@ Animator:
   m_GameObject: {fileID: 1180964192}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3a870c2f63761b644b0646fd297b8a71, type: 2}
+  m_Controller: {fileID: 9100000, guid: af849ebe2c7034148be6950daf60b1a6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6092,18 +6092,18 @@ MonoBehaviour:
   - skillName: "\uBC29\uC5B4"
     isDefenseSkill: 1
     defenseLevel: 25
-    basePower: 5
+    basePower: 10
     coinPower: 13
     coinCount: 1
     effects: []
     coinEffects: []
     assignedSlotSprite: {fileID: 21300000, guid: 3f08662d4b7b33c4ebc02c360219581f, type: 3}
     readySlotSprite: {fileID: 21300000, guid: 8888c885732de8c489853272c5abbb2d, type: 3}
-  - skillName: "\uACF51"
+  - skillName: "\uC81C\uC555"
     isDefenseSkill: 0
     defenseLevel: 25
-    basePower: 6
-    coinPower: 8
+    basePower: 4
+    coinPower: 7
     coinCount: 1
     effects: []
     coinEffects:
@@ -6116,11 +6116,11 @@ MonoBehaviour:
         count: 0
     assignedSlotSprite: {fileID: 21300000, guid: 3f08662d4b7b33c4ebc02c360219581f, type: 3}
     readySlotSprite: {fileID: 21300000, guid: 8888c885732de8c489853272c5abbb2d, type: 3}
-  - skillName: "\uACF52"
+  - skillName: "\uC9C4\uC555"
     isDefenseSkill: 0
     defenseLevel: 25
     basePower: 5
-    coinPower: 4
+    coinPower: 6
     coinCount: 2
     effects: []
     coinEffects:
@@ -6134,11 +6134,11 @@ MonoBehaviour:
       effects: []
     assignedSlotSprite: {fileID: 21300000, guid: 3f08662d4b7b33c4ebc02c360219581f, type: 3}
     readySlotSprite: {fileID: 21300000, guid: 8888c885732de8c489853272c5abbb2d, type: 3}
-  - skillName: "\uACF53"
+  - skillName: "\uC12C\uBA78"
     isDefenseSkill: 0
     defenseLevel: 25
-    basePower: 5
-    coinPower: 5
+    basePower: 6
+    coinPower: 6
     coinCount: 3
     effects: []
     coinEffects:
@@ -8228,10 +8228,10 @@ MonoBehaviour:
     coinEffects: []
     assignedSlotSprite: {fileID: 21300000, guid: 5adb207f75aa2644c84c4918dd5bb171, type: 3}
     readySlotSprite: {fileID: 21300000, guid: ba9284735da742b4a87d35bb0e6433b6, type: 3}
-  - skillName: "\uACF51"
+  - skillName: "\uC751\uAE09 \uCC98\uCE58"
     isDefenseSkill: 0
     defenseLevel: 25
-    basePower: 6
+    basePower: 5
     coinPower: 8
     coinCount: 1
     effects: []
@@ -8245,11 +8245,11 @@ MonoBehaviour:
         count: 0
     assignedSlotSprite: {fileID: 21300000, guid: 5adb207f75aa2644c84c4918dd5bb171, type: 3}
     readySlotSprite: {fileID: 21300000, guid: ba9284735da742b4a87d35bb0e6433b6, type: 3}
-  - skillName: "\uACF52"
+  - skillName: "\uC7AC\uC0DD \uCC98\uBC29"
     isDefenseSkill: 0
     defenseLevel: 25
     basePower: 5
-    coinPower: 4
+    coinPower: 5
     coinCount: 2
     effects: []
     coinEffects:
@@ -8263,12 +8263,12 @@ MonoBehaviour:
       effects: []
     assignedSlotSprite: {fileID: 21300000, guid: 5adb207f75aa2644c84c4918dd5bb171, type: 3}
     readySlotSprite: {fileID: 21300000, guid: ba9284735da742b4a87d35bb0e6433b6, type: 3}
-  - skillName: "\uACF53"
+  - skillName: "\uC0DD\uBA85 \uBD09\uD569"
     isDefenseSkill: 0
     defenseLevel: 25
-    basePower: 5
-    coinPower: 5
-    coinCount: 3
+    basePower: 6
+    coinPower: 7
+    coinCount: 2
     effects: []
     coinEffects:
     - animationTrigger: 1

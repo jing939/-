@@ -2684,12 +2684,12 @@ MonoBehaviour:
   maxHp: 110
   hp: 110
   shield: 0
-  attackLevel: 30
+  attackLevel: 40
   defenseLevel: 35
   minSpeed: 4
   maxSpeed: 8
   currentSpeed: 0
-  sp: 0
+  sp: 20
   skills:
   - skillName: "\uBC29\uC5B4"
     isDefenseSkill: 1
@@ -3566,12 +3566,12 @@ MonoBehaviour:
   maxHp: 85
   hp: 85
   shield: 0
-  attackLevel: 35
+  attackLevel: 45
   defenseLevel: 25
   minSpeed: 4
   maxSpeed: 8
   currentSpeed: 0
-  sp: 0
+  sp: 20
   skills:
   - skillName: "\uBC29\uC5B4"
     isDefenseSkill: 1
@@ -4962,12 +4962,12 @@ MonoBehaviour:
   maxHp: 120
   hp: 120
   shield: 0
-  attackLevel: 45
+  attackLevel: 55
   defenseLevel: 10
   minSpeed: 4
   maxSpeed: 8
   currentSpeed: 0
-  sp: 0
+  sp: 20
   skills:
   - skillName: "\uBC29\uC5B4"
     isDefenseSkill: 1
@@ -6067,12 +6067,12 @@ MonoBehaviour:
   maxHp: 120
   hp: 120
   shield: 0
-  attackLevel: 35
+  attackLevel: 45
   defenseLevel: 30
   minSpeed: 4
   maxSpeed: 8
   currentSpeed: 0
-  sp: 0
+  sp: 20
   skills:
   - skillName: "\uBC29\uC5B4"
     isDefenseSkill: 1
@@ -8196,12 +8196,12 @@ MonoBehaviour:
   maxHp: 100
   hp: 100
   shield: 0
-  attackLevel: 25
+  attackLevel: 35
   defenseLevel: 20
   minSpeed: 4
   maxSpeed: 8
   currentSpeed: 0
-  sp: 0
+  sp: 20
   skills:
   - skillName: "\uBC29\uC5B4"
     isDefenseSkill: 1

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using TMPro;
 
 public class Enemy : MonoBehaviour
@@ -53,7 +53,7 @@ public class Enemy : MonoBehaviour
     
     public TextMeshProUGUI statusText;
     [Header("Status Effect UI")]
-    public Vector3 statusUIOffset = new Vector3(0, 40, 0);
+    public Vector3 statusUIOffset = new Vector3(0, 75, 0);
     public Texture2D bleedIcon;
     public Texture2D poisonIcon;
     public Texture2D ruptureIcon;
