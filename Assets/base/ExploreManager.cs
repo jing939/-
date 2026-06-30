@@ -1047,7 +1047,10 @@ public class ExploreManager : MonoBehaviour
         bool wasFinished = currentNode != null && currentNode.layerIndex == layers.Count - 1;
 
         if (resultPanel != null) resultPanel.SetActive(false);
+        if (entryPanel != null) entryPanel.SetActive(false);
         SetDim(0f, 0.2f);
+
+        Debug.Log($"[CloseResult] wasFinished={wasFinished}, pendingMove={pendingMove}, selectedNode={(selectedNode != null ? selectedNode.name : "null")}, currentNode={(currentNode != null ? currentNode.name : "null")}");
 
         if (wasFinished || (resultUIText != null && resultUIText.text.Contains("탐사 완료")))
         {
@@ -1056,7 +1059,14 @@ public class ExploreManager : MonoBehaviour
         }
 
         if (pendingMove && selectedNode != null && selectedNode != currentNode)
+        {
+            Debug.Log($"[CloseResult] Calling FinalizeNodeTransition({selectedNode.name})");
             FinalizeNodeTransition(selectedNode);
+        }
+        else
+        {
+            Debug.Log("[CloseResult] Condition failed for FinalizeNodeTransition");
+        }
 
         pendingMove = false;
         ExploreSaveData.Save(this, inBattle: false);
@@ -1067,6 +1077,8 @@ public class ExploreManager : MonoBehaviour
     /// <summary>No 버튼 (취소).</summary>
     public void CancelNode()
     {
+        if (pendingMove) return;
+
         if (entryPanel != null) entryPanel.SetActive(false);
         SetDim(0f, 0.2f);
         selectedNode = null;

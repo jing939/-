@@ -149,8 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443a571c3def71446a2dc46ee3ff2b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  maxHp: 150
-  hp: 150
+  maxHp: 85
+  hp: 85
   shield: 0
   attackLevel: 20
   defenseLevel: 25
@@ -310,7 +310,7 @@ Animator:
   m_GameObject: {fileID: 97589165}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3a870c2f63761b644b0646fd297b8a71, type: 2}
+  m_Controller: {fileID: 9100000, guid: 19f549a0ddcd8994b84a6f9a8f9a9e97, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2327,7 +2327,7 @@ Animator:
   m_GameObject: {fileID: 463980604}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 19f549a0ddcd8994b84a6f9a8f9a9e97, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3a870c2f63761b644b0646fd297b8a71, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2684,7 +2684,7 @@ MonoBehaviour:
   maxHp: 110
   hp: 110
   shield: 0
-  attackLevel: 20
+  attackLevel: 30
   defenseLevel: 35
   minSpeed: 4
   maxSpeed: 8
@@ -2699,8 +2699,8 @@ MonoBehaviour:
     coinCount: 1
     effects: []
     coinEffects: []
-    assignedSlotSprite: {fileID: 0}
-    readySlotSprite: {fileID: 0}
+    assignedSlotSprite: {fileID: 21300000, guid: 8aebbfee387a97946b73093e301c9b92, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: b39be50af7c2acf41aa15c5ad0c6a622, type: 3}
   - skillName: "\uACF51"
     isDefenseSkill: 0
     defenseLevel: 25
@@ -2716,8 +2716,8 @@ MonoBehaviour:
       - statusType: 2
         potency: 3
         count: 0
-    assignedSlotSprite: {fileID: 21300000, guid: a609724afd7f93d40adb59c99ab7bf74, type: 3}
-    readySlotSprite: {fileID: 21300000, guid: 13e04afcf59707f4f8ff62d94f5dfbbf, type: 3}
+    assignedSlotSprite: {fileID: 21300000, guid: 8aebbfee387a97946b73093e301c9b92, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: b39be50af7c2acf41aa15c5ad0c6a622, type: 3}
   - skillName: "\uACF52"
     isDefenseSkill: 0
     defenseLevel: 25
@@ -2734,8 +2734,8 @@ MonoBehaviour:
       attackSpeed: 1
       customEffectPrefab: {fileID: 0}
       effects: []
-    assignedSlotSprite: {fileID: 21300000, guid: a0f832ac7ce0b514d9a995b3f8a59276, type: 3}
-    readySlotSprite: {fileID: 21300000, guid: 59682309a478cd24c979ce1e1a36bd64, type: 3}
+    assignedSlotSprite: {fileID: 21300000, guid: 8aebbfee387a97946b73093e301c9b92, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: b39be50af7c2acf41aa15c5ad0c6a622, type: 3}
   - skillName: "\uACF53"
     isDefenseSkill: 0
     defenseLevel: 25
@@ -2756,8 +2756,8 @@ MonoBehaviour:
       attackSpeed: 1
       customEffectPrefab: {fileID: 8525990746615576120, guid: b85d21f3b8fed714bacf0c4fd50fa512, type: 3}
       effects: []
-    assignedSlotSprite: {fileID: 21300000, guid: cbe964d5ba2335148828a723ce0a3d7a, type: 3}
-    readySlotSprite: {fileID: 21300000, guid: 7bc0c481d76917648893f91803c9d3c7, type: 3}
+    assignedSlotSprite: {fileID: 21300000, guid: 8aebbfee387a97946b73093e301c9b92, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: b39be50af7c2acf41aa15c5ad0c6a622, type: 3}
   isDead: 0
   hpText: {fileID: 157534168}
   hpIconSprite: {fileID: 21300000, guid: 73a1c26745661f94b9e9882fe6259c75, type: 3}
@@ -3566,7 +3566,7 @@ MonoBehaviour:
   maxHp: 85
   hp: 85
   shield: 0
-  attackLevel: 25
+  attackLevel: 35
   defenseLevel: 25
   minSpeed: 4
   maxSpeed: 8
@@ -3581,8 +3581,8 @@ MonoBehaviour:
     coinCount: 1
     effects: []
     coinEffects: []
-    assignedSlotSprite: {fileID: 0}
-    readySlotSprite: {fileID: 0}
+    assignedSlotSprite: {fileID: 21300000, guid: 27fa6340f5a0a3c40b627e7cfeb3f5ba, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: 1a169cc7aef44c54dade3d519bd1e74d, type: 3}
   - skillName: "\uACF51"
     isDefenseSkill: 0
     defenseLevel: 25
@@ -3598,8 +3598,8 @@ MonoBehaviour:
       - statusType: 2
         potency: 3
         count: 0
-    assignedSlotSprite: {fileID: 21300000, guid: a609724afd7f93d40adb59c99ab7bf74, type: 3}
-    readySlotSprite: {fileID: 21300000, guid: 13e04afcf59707f4f8ff62d94f5dfbbf, type: 3}
+    assignedSlotSprite: {fileID: 21300000, guid: 27fa6340f5a0a3c40b627e7cfeb3f5ba, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: 1a169cc7aef44c54dade3d519bd1e74d, type: 3}
   - skillName: "\uACF52"
     isDefenseSkill: 0
     defenseLevel: 25
@@ -3616,8 +3616,8 @@ MonoBehaviour:
       attackSpeed: 1
       customEffectPrefab: {fileID: 0}
       effects: []
-    assignedSlotSprite: {fileID: 21300000, guid: a0f832ac7ce0b514d9a995b3f8a59276, type: 3}
-    readySlotSprite: {fileID: 21300000, guid: 59682309a478cd24c979ce1e1a36bd64, type: 3}
+    assignedSlotSprite: {fileID: 21300000, guid: 27fa6340f5a0a3c40b627e7cfeb3f5ba, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: 1a169cc7aef44c54dade3d519bd1e74d, type: 3}
   - skillName: "\uACF53"
     isDefenseSkill: 0
     defenseLevel: 25
@@ -3638,8 +3638,8 @@ MonoBehaviour:
       attackSpeed: 1
       customEffectPrefab: {fileID: 8525990746615576120, guid: b85d21f3b8fed714bacf0c4fd50fa512, type: 3}
       effects: []
-    assignedSlotSprite: {fileID: 21300000, guid: cbe964d5ba2335148828a723ce0a3d7a, type: 3}
-    readySlotSprite: {fileID: 21300000, guid: 7bc0c481d76917648893f91803c9d3c7, type: 3}
+    assignedSlotSprite: {fileID: 21300000, guid: 27fa6340f5a0a3c40b627e7cfeb3f5ba, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: 1a169cc7aef44c54dade3d519bd1e74d, type: 3}
   isDead: 0
   hpText: {fileID: 157534168}
   hpIconSprite: {fileID: 21300000, guid: 73a1c26745661f94b9e9882fe6259c75, type: 3}
@@ -4648,8 +4648,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443a571c3def71446a2dc46ee3ff2b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  maxHp: 150
-  hp: 150
+  maxHp: 85
+  hp: 85
   shield: 0
   attackLevel: 20
   defenseLevel: 25
@@ -4962,7 +4962,7 @@ MonoBehaviour:
   maxHp: 120
   hp: 120
   shield: 0
-  attackLevel: 35
+  attackLevel: 45
   defenseLevel: 10
   minSpeed: 4
   maxSpeed: 8
@@ -5007,11 +5007,17 @@ MonoBehaviour:
     - animationTrigger: 1
       attackSpeed: 1
       customEffectPrefab: {fileID: 0}
-      effects: []
+      effects:
+      - statusType: 2
+        potency: 2
+        count: 0
     - animationTrigger: 2
       attackSpeed: 1
       customEffectPrefab: {fileID: 0}
-      effects: []
+      effects:
+      - statusType: 0
+        potency: 2
+        count: 1
     assignedSlotSprite: {fileID: 21300000, guid: 3f6617d10911bee4ba4ac065e35b6c5f, type: 3}
     readySlotSprite: {fileID: 21300000, guid: 3ff374fdf6bdc3c4db13ca9cd4fb5875, type: 3}
   - skillName: "\uB3C5\uB2C8 \uAF2C\uB9AC \uCC98\uD615"
@@ -5025,15 +5031,24 @@ MonoBehaviour:
     - animationTrigger: 1
       attackSpeed: 1
       customEffectPrefab: {fileID: 8525990746615576120, guid: b85d21f3b8fed714bacf0c4fd50fa512, type: 3}
-      effects: []
+      effects:
+      - statusType: 2
+        potency: 1
+        count: 2
     - animationTrigger: 2
       attackSpeed: 1
       customEffectPrefab: {fileID: 8525990746615576120, guid: b85d21f3b8fed714bacf0c4fd50fa512, type: 3}
-      effects: []
+      effects:
+      - statusType: 0
+        potency: 3
+        count: 1
     - animationTrigger: 3
       attackSpeed: 1
       customEffectPrefab: {fileID: 8525990746615576120, guid: b85d21f3b8fed714bacf0c4fd50fa512, type: 3}
-      effects: []
+      effects:
+      - statusType: 2
+        potency: 4
+        count: 0
     assignedSlotSprite: {fileID: 21300000, guid: eab6caae052d8bd47a899e562fb327b4, type: 3}
     readySlotSprite: {fileID: 21300000, guid: 05e6c0598d032394ba44c5fecc4cbb4c, type: 3}
   isDead: 0
@@ -6067,7 +6082,7 @@ MonoBehaviour:
   maxHp: 120
   hp: 120
   shield: 0
-  attackLevel: 25
+  attackLevel: 35
   defenseLevel: 30
   minSpeed: 4
   maxSpeed: 8
@@ -6082,8 +6097,8 @@ MonoBehaviour:
     coinCount: 1
     effects: []
     coinEffects: []
-    assignedSlotSprite: {fileID: 0}
-    readySlotSprite: {fileID: 0}
+    assignedSlotSprite: {fileID: 21300000, guid: 3f08662d4b7b33c4ebc02c360219581f, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: 8888c885732de8c489853272c5abbb2d, type: 3}
   - skillName: "\uACF51"
     isDefenseSkill: 0
     defenseLevel: 25
@@ -6099,8 +6114,8 @@ MonoBehaviour:
       - statusType: 2
         potency: 3
         count: 0
-    assignedSlotSprite: {fileID: 21300000, guid: a609724afd7f93d40adb59c99ab7bf74, type: 3}
-    readySlotSprite: {fileID: 21300000, guid: 13e04afcf59707f4f8ff62d94f5dfbbf, type: 3}
+    assignedSlotSprite: {fileID: 21300000, guid: 3f08662d4b7b33c4ebc02c360219581f, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: 8888c885732de8c489853272c5abbb2d, type: 3}
   - skillName: "\uACF52"
     isDefenseSkill: 0
     defenseLevel: 25
@@ -6117,8 +6132,8 @@ MonoBehaviour:
       attackSpeed: 1
       customEffectPrefab: {fileID: 0}
       effects: []
-    assignedSlotSprite: {fileID: 21300000, guid: a0f832ac7ce0b514d9a995b3f8a59276, type: 3}
-    readySlotSprite: {fileID: 21300000, guid: 59682309a478cd24c979ce1e1a36bd64, type: 3}
+    assignedSlotSprite: {fileID: 21300000, guid: 3f08662d4b7b33c4ebc02c360219581f, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: 8888c885732de8c489853272c5abbb2d, type: 3}
   - skillName: "\uACF53"
     isDefenseSkill: 0
     defenseLevel: 25
@@ -6139,8 +6154,8 @@ MonoBehaviour:
       attackSpeed: 1
       customEffectPrefab: {fileID: 8525990746615576120, guid: b85d21f3b8fed714bacf0c4fd50fa512, type: 3}
       effects: []
-    assignedSlotSprite: {fileID: 21300000, guid: cbe964d5ba2335148828a723ce0a3d7a, type: 3}
-    readySlotSprite: {fileID: 21300000, guid: 7bc0c481d76917648893f91803c9d3c7, type: 3}
+    assignedSlotSprite: {fileID: 21300000, guid: 3f08662d4b7b33c4ebc02c360219581f, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: 8888c885732de8c489853272c5abbb2d, type: 3}
   isDead: 0
   hpText: {fileID: 157534168}
   hpIconSprite: {fileID: 21300000, guid: 73a1c26745661f94b9e9882fe6259c75, type: 3}
@@ -6462,8 +6477,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443a571c3def71446a2dc46ee3ff2b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  maxHp: 150
-  hp: 150
+  maxHp: 85
+  hp: 85
   shield: 0
   attackLevel: 20
   defenseLevel: 25
@@ -8196,7 +8211,7 @@ MonoBehaviour:
   maxHp: 100
   hp: 100
   shield: 0
-  attackLevel: 15
+  attackLevel: 25
   defenseLevel: 20
   minSpeed: 4
   maxSpeed: 8
@@ -8211,8 +8226,8 @@ MonoBehaviour:
     coinCount: 1
     effects: []
     coinEffects: []
-    assignedSlotSprite: {fileID: 0}
-    readySlotSprite: {fileID: 0}
+    assignedSlotSprite: {fileID: 21300000, guid: 5adb207f75aa2644c84c4918dd5bb171, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: ba9284735da742b4a87d35bb0e6433b6, type: 3}
   - skillName: "\uACF51"
     isDefenseSkill: 0
     defenseLevel: 25
@@ -8228,8 +8243,8 @@ MonoBehaviour:
       - statusType: 2
         potency: 3
         count: 0
-    assignedSlotSprite: {fileID: 21300000, guid: a609724afd7f93d40adb59c99ab7bf74, type: 3}
-    readySlotSprite: {fileID: 21300000, guid: 13e04afcf59707f4f8ff62d94f5dfbbf, type: 3}
+    assignedSlotSprite: {fileID: 21300000, guid: 5adb207f75aa2644c84c4918dd5bb171, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: ba9284735da742b4a87d35bb0e6433b6, type: 3}
   - skillName: "\uACF52"
     isDefenseSkill: 0
     defenseLevel: 25
@@ -8246,8 +8261,8 @@ MonoBehaviour:
       attackSpeed: 1
       customEffectPrefab: {fileID: 0}
       effects: []
-    assignedSlotSprite: {fileID: 21300000, guid: a0f832ac7ce0b514d9a995b3f8a59276, type: 3}
-    readySlotSprite: {fileID: 21300000, guid: 59682309a478cd24c979ce1e1a36bd64, type: 3}
+    assignedSlotSprite: {fileID: 21300000, guid: 5adb207f75aa2644c84c4918dd5bb171, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: ba9284735da742b4a87d35bb0e6433b6, type: 3}
   - skillName: "\uACF53"
     isDefenseSkill: 0
     defenseLevel: 25
@@ -8268,8 +8283,8 @@ MonoBehaviour:
       attackSpeed: 1
       customEffectPrefab: {fileID: 8525990746615576120, guid: b85d21f3b8fed714bacf0c4fd50fa512, type: 3}
       effects: []
-    assignedSlotSprite: {fileID: 21300000, guid: cbe964d5ba2335148828a723ce0a3d7a, type: 3}
-    readySlotSprite: {fileID: 21300000, guid: 7bc0c481d76917648893f91803c9d3c7, type: 3}
+    assignedSlotSprite: {fileID: 21300000, guid: 5adb207f75aa2644c84c4918dd5bb171, type: 3}
+    readySlotSprite: {fileID: 21300000, guid: ba9284735da742b4a87d35bb0e6433b6, type: 3}
   isDead: 0
   hpText: {fileID: 157534168}
   hpIconSprite: {fileID: 21300000, guid: 73a1c26745661f94b9e9882fe6259c75, type: 3}
@@ -8459,8 +8474,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443a571c3def71446a2dc46ee3ff2b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  maxHp: 150
-  hp: 150
+  maxHp: 85
+  hp: 85
   shield: 0
   attackLevel: 20
   defenseLevel: 25

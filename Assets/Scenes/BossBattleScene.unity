@@ -149,8 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443a571c3def71446a2dc46ee3ff2b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  maxHp: 125
-  hp: 125
+  maxHp: 100
+  hp: 100
   shield: 0
   attackLevel: 20
   defenseLevel: 20
@@ -2684,7 +2684,7 @@ MonoBehaviour:
   maxHp: 110
   hp: 110
   shield: 0
-  attackLevel: 20
+  attackLevel: 30
   defenseLevel: 35
   minSpeed: 4
   maxSpeed: 8
@@ -3566,7 +3566,7 @@ MonoBehaviour:
   maxHp: 85
   hp: 85
   shield: 0
-  attackLevel: 25
+  attackLevel: 35
   defenseLevel: 25
   minSpeed: 4
   maxSpeed: 8
@@ -4962,7 +4962,7 @@ MonoBehaviour:
   maxHp: 120
   hp: 120
   shield: 0
-  attackLevel: 35
+  attackLevel: 45
   defenseLevel: 10
   minSpeed: 4
   maxSpeed: 8
@@ -6067,7 +6067,7 @@ MonoBehaviour:
   maxHp: 120
   hp: 120
   shield: 0
-  attackLevel: 25
+  attackLevel: 35
   defenseLevel: 30
   minSpeed: 4
   maxSpeed: 8
@@ -6462,8 +6462,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443a571c3def71446a2dc46ee3ff2b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  maxHp: 125
-  hp: 125
+  maxHp: 100
+  hp: 100
   shield: 0
   attackLevel: 20
   defenseLevel: 20
@@ -8196,7 +8196,7 @@ MonoBehaviour:
   maxHp: 100
   hp: 100
   shield: 0
-  attackLevel: 15
+  attackLevel: 25
   defenseLevel: 20
   minSpeed: 4
   maxSpeed: 8
@@ -8459,8 +8459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443a571c3def71446a2dc46ee3ff2b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  maxHp: 125
-  hp: 125
+  maxHp: 100
+  hp: 100
   shield: 0
   attackLevel: 20
   defenseLevel: 20
