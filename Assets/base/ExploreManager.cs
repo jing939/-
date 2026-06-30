@@ -314,6 +314,15 @@ public class ExploreManager : MonoBehaviour
         Node restoredCurrent = layers[save.currentLayer][save.currentIndex];
         SetupAfterMapReady(restoredCurrent, clearPath: false);
 
+        if (BaseManager.instance != null)
+        {
+            BaseManager.instance.baseNodes.Clear();
+            if (layers.Count > 0 && layers[0].Count > 0)
+            {
+                BaseManager.instance.BuildBase(layers[0][0]);
+            }
+        }
+
         if (save.selectedLayer >= 0 && save.selectedIndex >= 0
             && save.selectedLayer < layers.Count
             && save.selectedIndex < layers[save.selectedLayer].Count)
